@@ -61,7 +61,7 @@ static const char unknown_str[] = "?";
  */
 static const struct arg args[] = {
 	/* function    format          argument */
-        { cpu_perc,    "%s%% ",          NULL },
+        { cpu_perc,    "  %3s%% ",    NULL },
         { run_command, " %s ",        "~/dotfiles/bin/temp.sh" },
         { run_command, "%s ",          "~/dotfiles/bin/mail-notify.sh" }, 
 	{ datetime,    "%s",           " %F  %T" },
